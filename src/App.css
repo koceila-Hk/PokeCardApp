@@ -1,0 +1,24 @@
+*{  margin: 0;  padding: 0;  box-sizing: border-box;}
+#root{width: 100%;}
+.input-number {  width: 100px;  padding: 10px;  margin: 10px 0;  border: 2px solid #ccc;  border-radius: 4px;}
+
+.input-text {width: 200px;padding: 10px;margin: 10px 0;border: 2px solid #ccc;border-radius: 4px;}
+
+.input-focus:focus { border-color: #007bff; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);}
+.input-container {  display: flex;  flex-direction: column;}
+
+p{  font-size: 0.5rem;  color: #fff;}
+.explication{font-size: 1.5rem;  color: #fff;}
+.card{  display: flex;  flex-direction: column;  padding: 1rem 1rem 0 1rem;  width: 300px;  background-color: black;  gap: 1rem;  border-radius: 30px;}
+.illustration{  position: relative;  border: #fff 2px solid;}
+.image{  display: flex;}
+
+.illustration .image img{  width:100% ;  height: 150px;  margin: 0;}
+
+.cout{  position: absolute;  right: 2px;  top: 2px;  z-index: 999;  background-color: #4e4242;  border-radius: 50%;  padding: 1rem;}
+.cout h3{  height: 0.3rem;  width: 0.3rem;  display: flex;  justify-content: center;  align-items: center;}
+.nom{  display: flex;  justify-content: center;  background-color: #fff;}
+.effet{  background-color: gray;  padding: 0.5rem;  position: relative;  border-radius: 20px;}
+.keywords{  display: flex;  gap: 0.5rem;  justify-content: flex-end;  width: 100%;  flex-wrap: wrap;}
+.mot{  padding: 0.1rem 0.4rem;  background-color: black;  border-radius: 30px;}
+.type{  display: flex;  justify-content: center;  color: #fff;}
