@@ -1,7 +1,5 @@
 export default function Config(props){
 
-
-
     return(
         <div className="input-container">
 

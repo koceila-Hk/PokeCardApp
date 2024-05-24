@@ -1,5 +1,11 @@
 *{  margin: 0;  padding: 0;  box-sizing: border-box;}
+
 #root{width: 100%;}
+
+h2 {
+    color: black;
+}
+
 .input-number {  width: 100px;  padding: 10px;  margin: 10px 0;  border: 2px solid #ccc;  border-radius: 4px;}
 
 .input-text {width: 200px;padding: 10px;margin: 10px 0;border: 2px solid #ccc;border-radius: 4px;}
